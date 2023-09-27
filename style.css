@@ -1,0 +1,37 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #dedcd7;
+}
+th {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+td {
+  border: 1px solid #000;
+  padding: 10px 20px;
+}
+
+caption {
+  font-size: 42px;
+  font-weight: 700;
+  color: rgb(88, 79, 79);
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
