@@ -22,6 +22,9 @@ th {
   border: 1px solid #000;
   cursor: pointer;
 }
+th:last-child {
+  cursor: default;
+}
 
 td {
   border: 1px solid #000;

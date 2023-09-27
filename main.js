@@ -58,7 +58,6 @@ function loadUsers() {
       userData.sort((a, b) => String(b[column]).localeCompare(String(a[column])));
       sortOrder[column] = 'desc';
     }
-    console.log('Sorting by ID');
     displayUsers(userData);
   }
 
